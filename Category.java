@@ -5,7 +5,6 @@ public class Category {
     private String name;
     private String description;
 
-    // Constructor
     public Category(String id, String name, String description) {
         this.id = id;
         this.name = name;
@@ -23,3 +22,4 @@ public class Category {
     public void setName(String name) { this.name = name; }
     public void setDescription(String description) { this.description = description; }
 }
+
