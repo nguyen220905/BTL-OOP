@@ -11,8 +11,8 @@ public class user {
     private String password;
     private Date createdAt;
 
-    // Constructor
-    public User(String id, String name, String email, String password, Date createdAt) {
+    
+    public user(String id, String name, String email, String password, Date createdAt) {
         this.id = id;
         this.name = name;
         this.email = email;
@@ -22,9 +22,10 @@ public class user {
 
 
 
-    // Getter/Setter cơ bản
+
     public String getId() { return id; }
     public String getName() { return name; }
     public String getEmail() { return email; }
     public Date getCreatedAt() { return createdAt; }
 }
+
